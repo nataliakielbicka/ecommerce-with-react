@@ -34,6 +34,7 @@
     "webpack-hot-middleware": "^2.16.1"
   },
   "devDependencies": {
+    "axios": "^0.16.2",
     "babel-preset-env": "^1.6.0"
   }
 }

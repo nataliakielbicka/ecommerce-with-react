@@ -18,23 +18,19 @@ module.exports = {
         query: {
           presets: ['react', 'es2015']
         }
-      },
-      {
+      }, {
         test: /\.scss$/,
         loader: ExtractTextPlugin.extract('css-loader!sass-loader')
+      }, {
+        test: /\.css$/,
+        loader: "style-loader!css-loader"
       }
     ]
   },
   resolve: {
-    extensions: ['.js', '.jsx'],
+    extensions: ['.js', '.jsx']
   },
-  plugins: [
-    new ExtractTextPlugin({ 
-      filename: 'app.css', 
-      allChunks: true,
-      disable: true 
-    })
-  ],
+  plugins: [new ExtractTextPlugin({filename: 'app.css', allChunks: true, disable: true})],
   devServer: {
     historyApiFallback: true,
     contentBase: './'
