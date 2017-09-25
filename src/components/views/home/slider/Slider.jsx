@@ -39,9 +39,9 @@ export default class Slider extends Component {
   // componentWillMount method
   setImageArray(imageArray) {
     let newArray = [];
-    for (let i = 0; i < imageArray.length; i++) {
-      newArray.push(imageArray[i].image);
-    }
+    imageArray.map(item => {
+      newArray.push(item.image)
+    });
     this.setState({background: newArray, current: 0, ready: true});
   }
 
