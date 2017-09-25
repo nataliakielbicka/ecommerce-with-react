@@ -4,7 +4,7 @@ export default class SignUp extends Component {
   render() {
     return (
       <div>
-        <button>Sign Up</button>
+        <button className="btn btn-danger">Sign Up</button>
       </div>
     )
   }

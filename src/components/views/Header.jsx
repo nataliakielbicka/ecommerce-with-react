@@ -6,13 +6,19 @@ import SignUp from './header/SignUp';
 export default class Header extends Component {
   render() {
     return (
-      <div className="header">
-        <Logo/>
-        <div className="header-right">
-          <SearchAll/>
-          <SignUp/>
+      <header className="header">
+        <div className="container">
+          <div className="row">
+            <div className="col-8">
+              <Logo/>
+            </div>
+            <div className="float-right col-4">
+              <SearchAll/>
+              <SignUp/>
+            </div>
+          </div>
         </div>
-      </div>
+      </header>
     )
   }
 }

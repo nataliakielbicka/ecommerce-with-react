@@ -4,7 +4,7 @@ export default class SignIn extends Component {
   render() {
     return (
       <div>
-        <button>Sign In</button>
+        <button className="btn btn-info float-right">Sign In</button>
       </div>
     )
   }
