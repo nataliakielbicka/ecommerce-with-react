@@ -3,7 +3,6 @@ import axios from 'axios';
 import Slide from './Slide';
 import RightArrow from './RightArrow';
 import LeftArrow from './LeftArrow';
-import './slider.css';
 
 export default class Slider extends Component {
   constructor(props) {
