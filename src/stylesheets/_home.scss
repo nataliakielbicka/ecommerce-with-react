@@ -1,0 +1,35 @@
+.slider {
+    width: 100%;
+    background: #ddd;
+    position: relative;
+    .slide {
+      width: 100%;
+      background-position: center center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      &:after {
+        content: "";
+        display: block;
+        padding-bottom: 40%;
+      }
+    }
+    .next-arrow,
+    .back-arrow {
+      position: absolute;
+      top: 45%;
+      cursor: pointer;
+      color: #fff;
+      transition: all ease-in 0.2s;
+      max-width: 50px;
+      &:hover {
+        opacity: 0.7;
+        transition: all ease-in 0.2s;
+      }
+    }
+    .back-arrow {
+      left: 4%;
+    }
+    .next-arrow {
+      right: 4%;
+    }
+  }
