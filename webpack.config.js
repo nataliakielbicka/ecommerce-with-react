@@ -7,7 +7,7 @@ module.exports = {
   output: {
     path: __dirname + '/public',
     filename: "bundle.js",
-    publicPath: '/ecommerce-with-react/public/'
+    publicPath: '/public/'
   },
   module: {
     loaders: [

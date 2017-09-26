@@ -4,8 +4,6 @@ import { BrowserRouter } from 'react-router-dom'
 import App from './components/App';
 
 require('./stylesheets/main.scss');
-// require('./stylesheets/home.scss');
-// require('./stylesheets/contact.scss');
 
 ReactDom.render((
   <BrowserRouter>

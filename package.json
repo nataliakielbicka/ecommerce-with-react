@@ -2,14 +2,11 @@
   "name": "project",
   "version": "1.0.0",
   "description": "App using React",
-  "homepage": "https://nataliakielbicka.github.io/ecommerce-with-react/",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack-dev-server --hot --inline",
-    "start": "node server.js",
     "build": "webpack",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d public"
+    "start": "node server.js"
   },
   "main": "server.js",
   "engines": {
