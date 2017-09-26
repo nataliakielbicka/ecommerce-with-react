@@ -3,7 +3,8 @@
   height: 500px;
   width: 100%;
   background: #ddd;
-  position: absolute;
+  position: relative;
+  /* position: absolute; */
 }
 .slider .slide {
   height: 100%;
