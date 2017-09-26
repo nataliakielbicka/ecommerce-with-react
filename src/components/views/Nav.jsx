@@ -6,21 +6,17 @@ import SignIn from './nav/SignIn';
 export default class Nav extends Component {
   render() {
     return (
-      <div className="main-menu">
+      <nav className="navbar">
         <div className="container">
-          <div className="row">
-            <div className="col-7">
-              <MainMenu/>
-            </div>
-            <div className="offset-md-1 col-2">
+          <div className="row no-gutters">
+            <MainMenu/>
+            <div className="col-lg-5 col-md-8 col-sm-8">
               <Cart/>
-            </div>
-            <div className="col-2">
               <SignIn/>
             </div>
           </div>
         </div>
-      </div>
+      </nav>
     )
   }
 }

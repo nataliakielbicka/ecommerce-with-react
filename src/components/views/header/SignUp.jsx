@@ -1,11 +1,9 @@
-import React, { Component } from 'react'
+import React, {Component} from 'react'
 
 export default class SignUp extends Component {
   render() {
     return (
-      <div>
-        <button className="btn btn-danger">Sign Up</button>
-      </div>
+      <a href="#" className="btn btn-blue float-right">Sign Up</a>
     )
   }
 }

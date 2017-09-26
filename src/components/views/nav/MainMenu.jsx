@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 export default class MainMenu extends Component {
   render() {
     return (
-      <nav className="navbar navbar-inverse bg-inverse">
+      <div className="col-lg-7 col-md-4 col-sm-4">
         <button
           className="navbar-toggler navbar-toggler-right"
           type="button"
@@ -37,7 +37,7 @@ export default class MainMenu extends Component {
             </li>
           </ul>
         </div>
-      </nav>
+      </div>
     )
   }
 }

@@ -3,9 +3,9 @@ import ReactDom from 'react-dom';
 import { BrowserRouter } from 'react-router-dom'
 import App from './components/App';
 
-require('./stylesheets/base.scss');
-require('./stylesheets/home.scss');
-require('./stylesheets/contact.scss');
+require('./stylesheets/main.scss');
+// require('./stylesheets/home.scss');
+// require('./stylesheets/contact.scss');
 
 ReactDom.render((
   <BrowserRouter>

@@ -8,11 +8,11 @@ export default class Header extends Component {
     return (
       <header className="header">
         <div className="container">
-          <div className="row">
-            <div className="col-8">
+          <div className="row no-gutters">
+            <div className="col-lg-7 col-md-4 col-sm-4">
               <Logo/>
             </div>
-            <div className="float-right col-4">
+            <div className="col-lg-5 col-md-8 col-sm-8 form-wrapper">
               <SearchAll/>
               <SignUp/>
             </div>

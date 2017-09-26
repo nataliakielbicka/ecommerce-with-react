@@ -30,7 +30,7 @@ module.exports = {
   resolve: {
     extensions: ['.js', '.jsx']
   },
-  plugins: [new ExtractTextPlugin({filename: 'app.css', allChunks: true, disable: true})],
+  plugins: [new ExtractTextPlugin({filename: 'app.css', allChunks: true, disable: false})],
   devServer: {
     historyApiFallback: true,
     contentBase: './'

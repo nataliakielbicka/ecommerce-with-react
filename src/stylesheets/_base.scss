@@ -1,0 +1,72 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.btn {
+    border-radius: 0;
+    width: 100%;
+    &:hover,
+    &:focus,
+    &:active {
+        color: #fff;
+    }
+}
+.btn-blue {
+    background-color: $blue;
+    color: #fff;
+}
+.btn-yellow {
+    background-color: $yellow;
+    color: #fff;
+}
+
+
+::-webkit-input-placeholder {
+    /* WebKit, Blink, Edge */
+    color: #333;
+}
+
+input:focus::-webkit-input-placeholder {
+    color: #fff;
+}
+
+:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: #333;
+    opacity: 1;
+}
+
+input:focus:-moz-placeholder {
+    color: #fff;
+}
+
+::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: #333;
+    opacity: 1;
+}
+
+input:focus::-moz-placeholder {
+    color: #fff;
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #333;
+}
+
+::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #333;
+}
+
+input:focus:-ms-input-placeholder {
+    color: #fff;
+}

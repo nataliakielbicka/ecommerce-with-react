@@ -4,9 +4,9 @@ import Slider from './slider/Slider';
 export default class Home extends Component {
   render() {
     return (
-      <div className="homepage">
+      <section className="home-page">
         <Slider/>
-      </div>
+      </section>
     )
   }
 }
