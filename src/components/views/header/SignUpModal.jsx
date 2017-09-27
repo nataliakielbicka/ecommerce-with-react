@@ -56,7 +56,7 @@ export default class SignUpModal extends Component {
                             </div>
                             <div className="modal-footer">
                                 <button type="button" className="btn btn-yellow" onClick={this.props.onClose}>Cancel</button>
-                                <button type="submit" className="btn btn-blue" onClick={this.props.onClose}>Register</button>
+                                <button type="submit" className="btn btn-blue" onClick={this.props.changeBtnText}>Register</button>
                             </div>
                         </div>
                     </div>
