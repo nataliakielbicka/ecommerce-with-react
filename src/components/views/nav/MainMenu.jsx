@@ -21,10 +21,10 @@ export default class MainMenu extends Component {
               <Link to="/" className="nav-link">Home</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Shop by Category</a>
+              <a className="nav-link" href="#shopbycathegory">Shop by Category</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Shop by Brand</a>
+              <a className="nav-link" href="#shopbybrand">Shop by Brand</a>
             </li>
             <li className="nav-item">
               <Link to="/trending" className="nav-link">Trending</Link>

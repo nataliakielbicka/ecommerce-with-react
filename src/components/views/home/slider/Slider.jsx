@@ -48,7 +48,7 @@ export default class Slider extends Component {
     let current = this.state.current;
     let background = this.state.background;
 
-    if ((current != undefined) && (current < background.length - 1)) 
+    if ((current !== undefined) && (current < background.length - 1)) 
       return (
         <div
           style={{
